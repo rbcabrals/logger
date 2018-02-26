@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'io.rlogger'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+	compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.8.10'
+	compile group: 'org.aspectj', name: 'aspectjrt', version: '1.8.10'
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+}
